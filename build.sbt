@@ -12,6 +12,7 @@ lazy val root = project
 
     Antlr4 / antlr4Version := "4.10.1",
     Antlr4 / antlr4PackageName := Some("io.h8.antlr.antlr4"),
+    Antlr4 / antlr4GenVisitor := true,
 
     libraryDependencies ++= Seq(
       "org.antlr" % "antlr4-runtime" % "4.10.1",
